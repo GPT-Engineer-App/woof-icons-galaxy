@@ -1,4 +1,4 @@
-import { Paw, Heart, Bone, DogBowl, Scissors, FirstAid } from "lucide-react";
+import { PawPrint, Heart, Bone, Bowl, Scissors, Stethoscope } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const DogCard = ({ icon: Icon, title, description }) => (
@@ -24,7 +24,7 @@ const Index = () => {
       </header>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <DogCard
-          icon={Paw}
+          icon={PawPrint}
           title="Daily Walks"
           description="Regular exercise keeps your dog healthy and happy."
         />
@@ -39,7 +39,7 @@ const Index = () => {
           description="Provide a balanced diet for optimal health and energy."
         />
         <DogCard
-          icon={DogBowl}
+          icon={Bowl}
           title="Feeding Time"
           description="Establish a consistent feeding schedule for your pup."
         />
@@ -49,7 +49,7 @@ const Index = () => {
           description="Regular grooming keeps your dog clean and comfortable."
         />
         <DogCard
-          icon={FirstAid}
+          icon={Stethoscope}
           title="Health Check"
           description="Regular vet visits ensure your dog stays in top shape."
         />
