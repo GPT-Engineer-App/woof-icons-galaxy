@@ -1,4 +1,4 @@
-import { PawPrint, Heart, Bone, Bowl, Scissors, Stethoscope } from "lucide-react";
+import { PawPrint, Heart, Bone, UtensilsCrossed, Scissors, Stethoscope } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const DogCard = ({ icon: Icon, title, description }) => (
@@ -39,7 +39,7 @@ const Index = () => {
           description="Provide a balanced diet for optimal health and energy."
         />
         <DogCard
-          icon={Bowl}
+          icon={UtensilsCrossed}
           title="Feeding Time"
           description="Establish a consistent feeding schedule for your pup."
         />
